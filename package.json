@@ -1,0 +1,41 @@
+{
+  "name": "schema-utils",
+  "version": "1.0.1",
+  "description": "Better for human write schema define",
+  "main": "index.js",
+  "dependencies": {
+    "lodash.isplainobject": "~3.2.0",
+    "object-assign": "~3.0.0",
+    "utility": "~1.5.0",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {
+    "@ali/ci": "^4.8.0",
+    "istanbul": "^0.4.5",
+    "jison": "^0.4.15",
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "parse": "jison parse/schema.yy parse/schema.l -o parse/schema.js",
+    "cov": "istanbul cover node_modules/.bin/_mocha test",
+    "ci": "tnpm run cov",
+    "pub": "npm version patch && npm publish && git push origin master && git push origin --tag && tnpm sync"
+  },
+  "browser": {
+    "fs": false
+  },
+  "keywords": [
+    "schema",
+    "json-schema"
+  ],
+  "ci": {
+    "type": "gitlab"
+  },
+  "author": "hanwen.sah",
+  "contributors": [
+    "liz <shengyan1985@gmail.com>"
+  ],
+  "license": "ISC"
+}
