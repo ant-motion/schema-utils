@@ -1,0 +1,14 @@
+language: node_js
+
+notifications:
+  email:
+    - eward.song@gmail.com
+
+node_js:
+  - 2
+
+install:
+  - npm install
+
+script:
+  - npm run cov

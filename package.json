@@ -1,5 +1,5 @@
 {
-  "name": "schema-utils",
+  "name": "schemas-utile",
   "version": "1.0.1",
   "description": "Better for human write schema define",
   "main": "index.js",
