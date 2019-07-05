@@ -1,6 +1,6 @@
 {
   "name": "schemas-utile",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Better for human write schema define",
   "main": "index.js",
   "dependencies": {
