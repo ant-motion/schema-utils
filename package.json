@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Better for human write schema define",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ant-motion/schema-utils.git"
+  },
   "dependencies": {
     "lodash.isplainobject": "~3.2.0",
     "object-assign": "~3.0.0",
