@@ -1,32 +1,22 @@
-schema util
+schemas utile
 -----------
 
-[![build status](http://gitlab-ci.alipay-inc.com/projects/149/status.png?ref=master)](http://gitlab-ci.alipay-inc.com/projects/149?ref=master)
-
-依赖 schema-util 的应用列表:
-
--	[fengdie / papilio-tools](http://gitlab.alipay-inc.com/fengdie/papilio-tools)
--	[fengdie / papilio-package](http://gitlab.alipay-inc.com/fengdie/papilio-package)
--	[fengdie / fengdie-web](http://gitlab.alipay-inc.com/fengdie/fengdie-web)
 
 ## Badges
 
-[![TNPM version][tnpm-image]][tnpm-url]
-[![TNPM downloads][tnpm-downloads-image]][tnpm-url]
-[![install size][install-size-image]][install-size-url]
+[![NPM version][npm-image]][npm-url]
+[![npm download][download-image]][download-url]
 
-[tnpm-image]: https://npm.alibaba-inc.com/badge/v/schema-util.svg
-[tnpm-url]: https://npm.alibaba-inc.com/package/schema-util
-[tnpm-downloads-image]: https://npm.alibaba-inc.com/badge/d/schema-util.svg
-[install-size-image]: http://npg.dockerlab.alipay.net/badge?p=schema-util
-[install-size-url]: http://npg.dockerlab.alipay.net/result?p=schema-util
-
+[npm-image]: http://img.shields.io/npm/v/schemas-utile.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/schemas-utile
+[download-image]: https://img.shields.io/npm/dm/schemas-utile.svg?style=flat-square
+[download-url]: https://npmjs.org/package/schemas-utile
 --------------------
 
 ### schema dsl parse
 
 ```js
-var schema = require('schema-util').schema;
+var schema = require('schemas-utile').schema;
 
 var json = schema(`
   Array(foo) {
